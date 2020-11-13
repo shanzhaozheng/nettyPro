@@ -6,7 +6,7 @@ import java.nio.ByteBuffer;
 import java.nio.MappedByteBuffer;
 import java.nio.channels.FileChannel;
 
-public class NioTest {
+public class NioFile {
     public static void main(String[] args) throws IOException {
         /*String str = "hello 单昭铮";
         FileInputStream fileOutputStream = new FileInputStream("G:\\ideaSpace\\nettyPro\\test.txt");

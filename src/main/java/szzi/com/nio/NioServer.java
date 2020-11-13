@@ -7,7 +7,7 @@ import java.nio.channels.*;
 import java.util.Iterator;
 import java.util.Set;
 
-public class SelectorTest {
+public class NioServer {
     public static void main(String[] args) throws IOException {
         ServerSocketChannel serverSocketChannel = ServerSocketChannel.open();
         serverSocketChannel.bind(new InetSocketAddress(6666));

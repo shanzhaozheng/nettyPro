@@ -15,8 +15,8 @@ public class NioClient {
 
     private static Selector selector;
     private static SocketChannel socketChannel;
-    private static String host = "szzii.com";
-    private static Integer port = 6969;
+    private static String host = "localhost";
+    private static Integer port = 6666;
 
 
     public static ThreadLocal<ByteBuffer> tl = ThreadLocal.withInitial(()->ByteBuffer.allocate(1024 * 10));
